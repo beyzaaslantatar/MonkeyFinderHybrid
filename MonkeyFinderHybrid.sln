@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyFinderHybrid", "MonkeyFinderHybrid\MonkeyFinderHybrid.csproj", "{321031C0-3B4B-4FC9-9688-21FB95A6CC2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{321031C0-3B4B-4FC9-9688-21FB95A6CC2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{321031C0-3B4B-4FC9-9688-21FB95A6CC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{321031C0-3B4B-4FC9-9688-21FB95A6CC2B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{321031C0-3B4B-4FC9-9688-21FB95A6CC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{321031C0-3B4B-4FC9-9688-21FB95A6CC2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{321031C0-3B4B-4FC9-9688-21FB95A6CC2B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45F49EF2-6062-4550-ADDA-8632DA03C9D4}
+	EndGlobalSection
+EndGlobal

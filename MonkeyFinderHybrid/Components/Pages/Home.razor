@@ -1,0 +1,43 @@
+﻿@page "/"
+@using MonkeyFinderHybrid.Model
+@using MonkeyFinderHybrid.Services
+@using System.Diagnostics
+@inject MonkeyService monkeyService
+
+<div>
+    <button class="button-yellow" @onclick="AddMonkey">+Add Monkey</button>
+    @if (monkeys is null)
+    {
+        <p><em>Loading..</em></p>
+    }
+    else
+    {
+        <ul class="card-list">
+            @foreach (var monkey in monkeys)
+            {
+                <li class="card-item">
+                    <img class="card-image" src="@monkey.Image">
+                    <div class="card-content">
+                        <h2>@monkey.Name</h2>
+                        <p>@monkey.Location</p>
+                    </div>
+                </li>
+            }
+        </ul>
+    }
+</div>
+
+
+@code {
+    private List<Monkey> monkeys = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        monkeys = await monkeyService.GetMonkeys();
+    }
+
+    private void AddMonkey()
+    {
+        Debug.WriteLine("");
+    }
+}
